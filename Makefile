@@ -1,4 +1,5 @@
-CC=gcc
+CC=clang
+#CC=gcc
 CFILES:=$(shell find . -name "*.c")
 CFLAGS=-Wall \
        -Iinclude \
